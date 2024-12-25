@@ -1,9 +1,251 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+    "sliders": [
+        {
+            "id": 1,
+            "title": "Gözəl Persiya Pişikləri",
+            "url": "https://static.vecteezy.com/system/resources/previews/030/549/835/non_2x/cute-little-persian-kitten-on-pink-fur-in-room-decorated-for-christmas-ai-generative-photo.jpeg"
+        },
+        {
+            "id": 2,
+            "title": "Sevimli Köpək Balaları",
+            "url": "https://c.files.bbci.co.uk/F7CD/production/_91073436_cheetahcubanddog2722-grahms.jonescolumbuszooandaquarium.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Egzotik Quşlar",
+            "url": "https://sweeneyfeeders.com/wp-content/uploads/2014/02/golden-pheasant-sweeney-bird-feeders.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Akvaryum Balıqları",
+            "url": "https://www.liveaquaria.com/images/articles/Choosing_the_Right_Fish_for_your_Aquarium.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Şirin Tülkü",
+            "url": "https://st4.depositphotos.com/1372933/41711/i/450/depositphotos_417118296-stock-photo-red-fox-hunting-pray-snowy.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Nadir Tısbağalar",
+            "url": "https://oliveridleyproject.org/wp-content/uploads/2019/03/Rare-white-turtle-Maldives-ORP-Turtle-Rescue-Centre.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Tropik Əjdahalar",
+            "url": "https://kayzen.az/uploads/images/00/85/62/2015/01/22/144571.jpg"
+        },
+        {
+            "id": 8,
+            "title": "Canavarlar",
+            "url": "https://cdn.globalinfo.az/2022/11/canavar-900x506.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Bala Aslanlar",
+            "url": "https://www.worldanimalprotection.org/cdn-cgi/image/width=800,format=auto,fit=cover/siteassets/article/1016074.jpg"
+        }
+    ],
+    "animals": [
+        {
+            "id": 1,
+            "name": "Simurq",
+            "animalType": "Pişik",
+            "breed": "Persiya",
+            "age": 2,
+            "weight": "4 kg",
+            "owner": "John Doe",
+            "ImageURL": "https://d3544la1u8djza.cloudfront.net/APHI/Blog/2016/10_October/persians/Persian+Cat+Facts+History+Personality+and+Care+_+ASPCA+Pet+Health+Insurance+_+white+Persian+cat+resting+on+a+brown+sofa-min.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Max",
+            "animalType": "Köpək",
+            "breed": "Golden Retriever",
+            "age": 3,
+            "weight": "30 kg",
+            "owner": "Jane Smith",
+            "ImageURL": "https://heronscrossing.vet/wp-content/uploads/Golden-Retriever.jpg "
+        },
+        {
+            "id": 3,
+            "name": "Bella",
+            "animalType": "Pişik",
+            "breed": "Bengal",
+            "age": 1,
+            "weight": "3.5 kg",
+            "owner": "Alice Brown",
+            "ImageURL": "https://www.zooplus.co.uk/magazine/wp-content/uploads/2018/02/fotolia_82719975.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Charlie",
+            "animalType": "Köpək",
+            "breed": "Beagle",
+            "age": 4,
+            "weight": "20 kg",
+            "owner": "Robert White",
+            "ImageURL": "https://cdn-ghckb.nitrocdn.com/ywsRCaHzPZOrRGmIQthcAKzblzYFHUKW/assets/images/optimized/rev-d3835d7/blog.myollie.com/wp-content/uploads/2020/02/beagle-puppy-running-through-a-yard-with-a-ball-in-his-mouth.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Daisy",
+            "animalType": "Pişik",
+            "breed": "Sibir",
+            "age": 3,
+            "weight": "4.2 kg",
+            "owner": "Emily Green",
+            "ImageURL": "https://cattime.com/wp-content/uploads/sites/14/2011/12/GettyImages-1361978700-e1698268542248.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Rocky",
+            "animalType": "Köpək",
+            "breed": "Boxer",
+            "age": 5,
+            "weight": "25 kg",
+            "owner": "David Black",
+            "ImageURL": "https://pet-health-content-media.chewy.com/wp-content/uploads/2024/09/11181200/202104iStock-1257560195-scaled-1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Luna",
+            "animalType": "Pişik",
+            "breed": "Britaniya Qısa Tüklü",
+            "age": 2,
+            "weight": "3.8 kg",
+            "owner": "Sophia Blue",
+            "ImageURL": "https://img5.lalafo.com/i/posters/original/46/c6/d7/satilir-cazibdar-britaniya-qisa-tuklu-pisik-balalari-id-47469737-803416446.jpeg"
+        },
+        {
+            "id": 8,
+            "name": "Buddy",
+            "animalType": "Köpək",
+            "breed": "Labrador",
+            "age": 6,
+            "weight": "35 kg",
+            "owner": "Michael Gray",
+            "ImageURL": "https://cdn.wamiz.fr/cdn-cgi/image/format=auto,quality=80,width=1200,height=675,fit=cover/animal/breed/dog/adult/66fd0ed8598bc632838841.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Milo",
+            "animalType": "Hamster",
+            "breed": "Hamster",
+            "age": 1,
+            "weight": "2.5 kg",
+            "owner": "Charlotte Pink",
+            "ImageURL": "https://www.petscorner.co.uk/Images/Article/large/pc-ah-article-sa-syrian-hamster.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Jack",
+            "animalType": "Köpək",
+            "breed": "Dalmatian",
+            "age": 3,
+            "weight": "28 kg",
+            "owner": "Thomas Silver",
+            "ImageURL": "https://www.animalbehaviorcollege.com/wp-content/uploads/2015/08/breed-spotlight-dalmatians.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Oscar",
+            "animalType": "Pişik",
+            "breed": "Abessinian",
+            "age": 4,
+            "weight": "3.9 kg",
+            "owner": "Victoria Brown",
+            "ImageURL": "https://imgcdn.stablediffusionweb.com/2024/12/14/91d2d8e0-6afd-437f-b368-47d359ada4fd.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Ruby",
+            "animalType": "Köpək",
+            "breed": "Poodle",
+            "age": 2,
+            "weight": "15 kg",
+            "owner": "Oliver Green",
+            "ImageURL": "https://image.petmd.com/files/styles/978x550/public/2023-01/toy-poodle.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Ginger",
+            "animalType": "Pişik",
+            "breed": "Maine Coon",
+            "age": 5,
+            "weight": "5.5 kg",
+            "owner": "Ella White",
+            "ImageURL": "https://www.marly-dan.com/cdn/shop/articles/448_600x600_crop_center.jpg?v=1721994010"
+        },
+        {
+            "id": 14,
+            "name": "Toby",
+            "animalType": "Köpək",
+            "breed": "Husky",
+            "age": 4,
+            "weight": "29 kg",
+            "owner": "George Black",
+            "ImageURL": "https://www.ellevetsciences.com/wp-content/uploads/2022/07/ev-blog-huskies-header.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Zoe",
+            "animalType": "Pişik",
+            "breed": "Şotland Qıvrıqqulaqlı",
+            "age": 3,
+            "weight": "3.6 kg",
+            "owner": "Mia Gray",
+            "ImageURL": "https://biopet.az/resized/fit1220x550/center/pages/473/sotland-pisiyi-1198x540px.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Chloe",
+            "animalType": "Köpək",
+            "breed": "Shih Tzu",
+            "age": 2,
+            "weight": "12 kg",
+            "owner": "Liam Blue",
+            "ImageURL": "https://cdn.britannica.com/03/234203-050-C3D47B4B/Shih-tzu-dog.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Simba",
+            "animalType": "Pişik",
+            "breed": "Singapura",
+            "age": 3,
+            "weight": "3.2 kg",
+            "owner": "Ava Pink",
+            "ImageURL": "https://consumer-cms.petfinder.com/sites/default/files/images/content/Singapura%20Cat%204.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Lucy",
+            "animalType": "Köpək",
+            "breed": "Akita",
+            "age": 5,
+            "weight": "40 kg",
+            "owner": "Henry Silver",
+            "ImageURL": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/06154034/Akita-standing-outdoors-in-the-summer.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Lily",
+            "animalType": "Pişik",
+            "breed": "Birman",
+            "age": 4,
+            "weight": "4.1 kg",
+            "owner": "Grace Brown",
+            "ImageURL": "https://cats.com/wp-content/uploads/2020/08/Birman-Cat.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Leo",
+            "animalType": "Köpək",
+            "breed": "Doberman",
+            "age": 6,
+            "weight": "32 kg",
+            "owner": "Isabella Green",
+            "ImageURL": "https://pbs.twimg.com/media/DtucPv2WoAYkEKb?format=jpg&name=4096x4096"
+        }
+    ]
 }
